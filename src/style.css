@@ -99,6 +99,7 @@ p {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+    scrollbar-color: rgb(254, 252, 252) rgba(0,0,0);
     scroll-behavior: smooth;
     width: 30%;
     gap: 50px;
