@@ -1,0 +1,156 @@
+body {
+    scroll-behavior: smooth;
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+nav {
+    top: 0;
+    left: 0;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    background-color: black;
+    z-index: 100;
+    box-shadow: 0 2px 6px rgba(62, 62, 62, 0.744);
+}
+.navigation {
+    display: flex;
+    justify-content: left;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+ul li {
+    display: inline-block;
+    margin-right: max-width;
+    margin-left: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: cyan;
+    transition: ease 1s;
+}
+#welcome {
+    margin: 10px;
+    margin-bottom: 150px;
+    background-image: url("../images/public/bg.png");
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+#welcome .container {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px cyan;
+    width: 500px;
+    display: flex;
+    background-color: black;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.container button {
+    width: 150px;
+    height: 50px;
+    font-size: medium;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.container button:hover {
+    color: white;
+    border: 2px solid white;
+    background-color: black;
+}
+.idcard {
+    margin: 20px;
+    width: 300px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+section {
+    margin: 20px;
+    margin-bottom: 150px;
+}
+section h1 {
+    width: fit-content;
+    border-bottom: 1px solid white;
+}
+p {
+    font-size: large;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.product {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 30%;
+    gap: 50px;
+    margin: 0;
+}
+.item {
+    cursor: pointer;
+    width: 350px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+.item:hover * img {
+    background-color: black;
+}
+.item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.item h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: black;
+}
+.item p {
+    font-size: 14px;
+    color: #666;
+}
+.price {
+    text-decoration: line-through;
+}
+#footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px 0 0;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    margin-bottom: 0;
+}
+.contact {
+    width: 30%;
+    padding: 20px;
+    border-left: 3px solid white;
+}
+.nav {
+    text-decoration: underline;
+}
+.navfooter {
+    display: block;
+}
